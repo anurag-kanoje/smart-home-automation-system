@@ -1,0 +1,26 @@
+devices:
+  lights:
+    - device_id: "light_1"
+      name: "Living Room Light"
+      location: "Living Room"
+    - device_id: "light_2"
+      name: "Bedroom Light"
+      location: "Bedroom"
+
+  thermostats:
+    - device_id: "therm_1"
+      name: "Main Thermostat"
+      location: "Hallway"
+
+  cameras:
+    - device_id: "cam_1"
+      name: "Front Door Camera"
+      location: "Front Door"
+    - device_id: "cam_2"
+      name: "Backyard Camera"
+      location: "Backyard"
+
+settings:
+  default_temperature: 22
+  default_light_brightness: 80
+  motion_detection_enabled: true 
